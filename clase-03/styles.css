@@ -1,0 +1,43 @@
+.tweet {
+  width: 450px;
+  border: 1px solid #ccc;
+}
+
+.ingredients {
+  /* list-style-type: square; */
+  list-style-image: url('check.png');
+}
+
+/* Propiedades de modelo de caja */
+.box {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 20px;
+  
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.box:hover .btn {
+  opacity: 1;
+}
+
+.primary {
+  color: #ffffff;
+  background-color: blue;
+}
+
+.secondary {
+  background-color: yellow;
+}
+
+.btn {
+  background-color: #ffffff;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 4px;
+  opacity: 0;
+}
