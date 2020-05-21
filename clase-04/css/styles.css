@@ -1,3 +1,14 @@
+/*
+PROPERTIES CSS BOX-MODEL:
+=====================
+width
+height
+border
+margin
+padding
+box-sizing
+*/
+
 body {
   background-color: #ccc;
 }
